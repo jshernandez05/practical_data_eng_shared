@@ -6,9 +6,9 @@ from datetime import datetime
 from geopy.geocoders import Nominatim
 from difflib import get_close_matches
 
-from practical_data_eng_shared.io.load import load_dataframe
-from practical_data_eng_shared.io.extract import extract_table
-from practical_data_eng_shared.io.drive import parallel_load_files_to_df
+from practical_data_eng_shared.in_out.load import load_dataframe
+from practical_data_eng_shared.in_out.extract import extract_table
+from practical_data_eng_shared.in_out.drive import parallel_load_files_to_df
 from practical_data_eng_shared.utils import get_lookup_fn, hash_id, parse_date_formats
 from practical_data_eng_shared.constants import LOCATIONS, EMPLOYEES, TAX_RATE, PRODUCTS
 

@@ -2,8 +2,8 @@ import json
 import pandas as pd
 from datetime import datetime
 
-from practical_data_eng_shared.io.extract import extract_table
-from practical_data_eng_shared.io.load import load_dataframe
+from practical_data_eng_shared.in_out.extract import extract_table
+from practical_data_eng_shared.in_out.load import load_dataframe
 from practical_data_eng_shared.utils import get_lookup_fn, hash_id
 from practical_data_eng_shared.constants import TAX_RATE
 
